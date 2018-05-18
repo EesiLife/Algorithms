@@ -22,7 +22,7 @@ def compare(x, y):
 
 
 if __name__ == '__main__':
-    if (len(sys.argv) > 2):
+    if len(sys.argv) > 2:
         compare(float(sys.argv[1]), float(sys.argv[2]))
     else:
         print("参数错误：请输入2个double参数")

@@ -14,14 +14,14 @@ import sys
 
 
 def compare(a, b, c):
-    if( a==b and b==c):
+    if a == b and b == c:
         print("equal")
     else:
         print("not equal")
 
 
 if __name__ == '__main__':
-    if (len(sys.argv) > 3):
+    if len(sys.argv) > 3:
         compare(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]))
     else:
         print("参数错误：请输入3个整数参数")

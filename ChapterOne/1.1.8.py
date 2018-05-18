@@ -8,10 +8,10 @@
 
 import sys
 if __name__ == '__main__':
-    if (len(sys.argv) > 1):
+    if len(sys.argv) > 1:
         n = int(sys.argv[1])
         s = ''
-        while(n > 1):
+        while n > 1:
             s += str(n % 2)
             n = n / 2
         s += str(1)
