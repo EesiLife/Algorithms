@@ -12,9 +12,12 @@ if __name__ == '__main__':
         n = int(sys.argv[1])
         s = ''
         while(n > 1):
-            j = n % 2
+            s += str(n % 2)
             n = n / 2
-            s += str(j)
-            if (n == 1):
-                s += str(1)
+        s += str(1)
         print(s[::-1])
+    else:
+        print("参数错误：请输入1个int参数")
+        print("切到当前工作目录")
+        print("cd /Users/siyu/Desktop/workSpace/Algorithms/ChapterOne")
+        print("example: python 1.1.8.py  6")
