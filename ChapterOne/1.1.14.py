@@ -9,7 +9,7 @@
 import sys
 
 
-def __log2N(n):
+def __lg(n):
     i = -1
     while n > 0:
         print(n)
@@ -21,7 +21,7 @@ def __log2N(n):
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         N = int(sys.argv[1])
-        print('不大于log2 {}的最大整数为{}'.format(N, __log2N(int(sys.argv[1]))))
+        print('不大于log2 {}的最大整数为{}'.format(N, __lg(int(sys.argv[1]))))
     else:
         print("参数错误：请输入1个int参数")
         print("切到当前工作目录")
