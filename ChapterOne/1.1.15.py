@@ -17,6 +17,7 @@ def __histogram(a, M):
         arr.append(num)
     return arr
 
+
 if __name__ == '__main__':
     a = [1, 2, 2, 3, 4, 5, 6, 5, 5, 5, 4]
     M = 7
