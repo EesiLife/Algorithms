@@ -27,7 +27,7 @@ if __name__ == '__main__':
         print(m1)
         _reverse_matrix(m1)
     else:
-        print("参数错误：请输入2个double参数")
+        print("参数错误：请输入2个int参数")
         print("切到当前工作目录")
         print("cd /Users/siyu/Desktop/workSpace/Algorithms/ChapterOne")
         print("example: python 1.1.13.py 3 4")
