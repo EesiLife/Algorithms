@@ -23,7 +23,7 @@ if __name__ == '__main__':
         N = int(sys.argv[1])
         print('不大于log2 {}的最大整数为{}'.format(N, __log2N(int(sys.argv[1]))))
     else:
-        print("参数错误：请输入2个int参数")
+        print("参数错误：请输入1个int参数")
         print("切到当前工作目录")
         print("cd /Users/siyu/Desktop/workSpace/Algorithms/ChapterOne")
         print("example: python 1.1.14.py 3")
